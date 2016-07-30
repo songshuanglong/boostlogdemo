@@ -60,7 +60,7 @@ void init()
             (
                 boost::log::sinks::file::make_collector
                 (
-                    boost::log::keywords::target = "./logs/%Y%m%d%H%M%S"
+                    boost::log::keywords::target = "./logs"
                 )
             );
     sink->set_formatter
